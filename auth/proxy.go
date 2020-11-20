@@ -14,7 +14,8 @@ const MethodProxyAuth settings.AuthMethod = "proxy"
 
 // ProxyAuth is a proxy implementation of an auther.
 type ProxyAuth struct {
-	Header string `json:"header"`
+	Header        string `json:"header"`
+	ShowLoginPage bool
 }
 
 // Auth authenticates the user via an HTTP header.
@@ -30,5 +31,5 @@ func (a ProxyAuth) Auth(r *http.Request, sto *users.Storage, root string) (*user
 
 // LoginPage tells that proxy auth doesn't require a login page.
 func (a ProxyAuth) LoginPage() bool {
-	return false
+	return a.ShowLoginPage
 }
