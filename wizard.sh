@@ -40,7 +40,7 @@ buildBinary () {
 
   cd $REPO/http
   rm -rf rice-box.go
-  rice embed-go
+  rice embed-go -i "github.com/filebrowser/filebrowser/v2/http"
 
   cd $REPO
   go build -a -o filebrowser -ldflags "-s -w -X github.com/filebrowser/filebrowser/v2/version.CommitSHA=$COMMIT_SHA"
