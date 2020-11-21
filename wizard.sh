@@ -43,7 +43,7 @@ buildBinary () {
   rice embed-go -i "github.com/filebrowser/filebrowser/v2/http"
 
   cd $REPO
-  go build -a -o filebrowser -ldflags "-s -w -X github.com/filebrowser/filebrowser/v2/version.CommitSHA=$COMMIT_SHA"
+  go build -a -o filebrowser -ldflags "-s -w -X github.com/filebrowser/filebrowser/v2/version.CommitSHA=$COMMIT_SHA -linkmode external -extldflags \"-static\""
 }
 
 release () {
