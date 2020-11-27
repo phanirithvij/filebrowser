@@ -3,6 +3,7 @@
 </p>
 
 ![Preview](https://user-images.githubusercontent.com/5447088/50716739-ebd26700-107a-11e9-9817-14230c53efd2.gif)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fphanirithvij%2Ffilebrowser.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fphanirithvij%2Ffilebrowser?ref=badge_shield)
 
 [![Travis](https://img.shields.io/travis/com/filebrowser/filebrowser.svg?style=flat-square)](https://travis-ci.com/filebrowser/filebrowser)
 [![Go Report Card](https://goreportcard.com/badge/github.com/filebrowser/filebrowser?style=flat-square)](https://goreportcard.com/report/github.com/filebrowser/filebrowser)
@@ -31,3 +32,7 @@ For installation instructions please refer to our docs at [https://filebrowser.o
 ## Contributing
 
 If you're interested in contributing to this project, our docs are best places to start [https://filebrowser.org/contributing](https://filebrowser.org/contributing).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fphanirithvij%2Ffilebrowser.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fphanirithvij%2Ffilebrowser?ref=badge_large)
